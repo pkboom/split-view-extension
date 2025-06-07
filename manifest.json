@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Split View",
+  "version": "1.0",
+  "description": "Splits two sites side by side in new windows.",
+  "permissions": ["windows", "system.display"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Split Tabs Side by Side",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  }
+}
