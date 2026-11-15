@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Split View",
   "version": "1.0",
-  "description": "Splits two sites side by side in new windows.",
-  "permissions": ["windows", "system.display"],
+  "description": "Splits the two selected tabs, or the current tab and the one to its left, into Chrome's split view.",
+  "minimum_chrome_version": "155",
   "background": {
     "service_worker": "background.js"
   },
